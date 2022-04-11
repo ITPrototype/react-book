@@ -1,0 +1,17 @@
+.container{
+    width: 80%;
+    margin: 20px auto;
+    flex: 1;
+    min-height: 450px;
+}
+.title{
+    text-align: center;
+}
+.empty{
+    text-align: center;
+    color: red;
+}
+.s-sup-see{
+    text-align: center;
+    margin-top: 100px;
+}

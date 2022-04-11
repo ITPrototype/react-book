@@ -1,0 +1,91 @@
+.header{
+    top: 0;
+    min-height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: #141414;
+    padding-right: 20px;
+}.header-links-mobile{
+    display: none;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 40px;
+}
+.header-links{
+    display: flex;
+}
+.header-links ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+.header-links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0 15px;
+}
+.mobile-btn{
+    display: none;
+}
+.header-links ul li a:hover{
+    color: yellow;
+}
+.header-links li:hover{
+    transition: 0.8s;
+    border-bottom: 2px solid yellow;
+}
+@media screen and (max-width:800px) {
+    .header-links{
+        display: none;
+    }.header{
+        padding: 0;
+        margin: 0;
+    }
+    .mobile-btn{
+        display: block;
+        width: 100%;
+    }
+    .m-cont-head{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .logo{
+        display: none;
+    }
+    .mobile-btn ul{
+        border-bottom: 2px solid white;
+        width: 100%;
+        padding: 0;
+    }
+    .mobile-btn ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    .signOutbtn{
+        font-size: 25px;
+    }
+    .p-4{
+        padding: 0;
+    }
+}
+.signOutbtn{
+    background: none;
+    border: none;
+    color: white;
+}

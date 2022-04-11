@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    margin: 10px auto;
+    border-top: 2px solid gray;
+    padding-top: 40px;
+}
+.title-footer{
+    text-align: center;
+}
+.links a{
+    font-size: 30px;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: 0 auto;
+}
+.fa-instagram{
+    color: rgb(255, 0, 230);
+}
+.fa-telegram{
+    color: rgb(41, 181, 228);
+}
+.fa-github{
+    color: black;
+}
+.links a:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}

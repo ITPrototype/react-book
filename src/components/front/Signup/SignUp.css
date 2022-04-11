@@ -1,0 +1,71 @@
+.main{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 700px;
+    height: 400px;
+    margin: 50px auto;
+    padding-top: 100px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    height: 150px;
+}
+.inputs input{
+    width: 300px;
+    margin:0 auto;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 2px solid teal;
+    outline: none;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin: 0 auto;
+}
+.titles{
+    text-align: center;
+    margin-top: -70px;
+}
+.welcome{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    border-top: 2px solid teal;
+    padding-top: 20px;
+}
+.signwith{
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.for-welcome img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.for-welcome{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:500px) {
+    .main{
+        width: 100%;
+    }
+    .for-welcome{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btns{
+        width: 200px;
+    }
+}
