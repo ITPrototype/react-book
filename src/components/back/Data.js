@@ -16,7 +16,6 @@ const DataS = () => {
         setBooks(data.books)
         setPage(parseInt(data.page))
         setLoading(true)
-        console.log(data);
     }
     useEffect(()=>{
         getBooks(page);
