@@ -13,7 +13,6 @@ const Product = (books) => {
     setSuc('alert alert-success')
     setEditIndex(editIndex=>editIndex === product ? null : product)
     yuhhu.indexOf(product)===-1 ? yuhhu.push(product) && localStorage.setItem('to-cart',JSON.stringify(yuhhu)) : alert("You cant add 1 book 2 times bitch! 😤")
-    console.log(yuhhu);
   }
 
 
