@@ -12,7 +12,7 @@ const Header = () => {
             <div className="m-cont-head">
                 <h1>
                     <Link to="/" className="logo">
-                        Books Shop
+                        IT Books Shop
                     </Link>
                 </h1>
                 <div className="mobile-btn">
