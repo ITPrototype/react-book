@@ -41,7 +41,7 @@ const DataS = () => {
                 <p className='blabla'>
                 A room without books is like a body without a soul.
                 <span className='storebla'>
-                    Book Store
+                    IT Book Store
                 </span>
                 &mdash; Take a good book to bed with you—books do not snore. &mdash;
                 </p>
