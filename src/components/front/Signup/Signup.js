@@ -9,7 +9,6 @@ const Signup = () => {
   const signed = async() =>{
     const provider =new firebase.auth.GoogleAuthProvider()
     const {user} =await firebase.auth().signInWithPopup(provider)
-    console.log(user);
   }
   return (
     <div className='main'>
