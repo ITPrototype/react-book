@@ -25,6 +25,7 @@
     list-style: none;
     display: inline-block;
     font-size: 18px;
+    border-bottom:2px solid transparent;
 }
 .header-links ul li a{
     text-decoration: none;
